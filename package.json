@@ -1,0 +1,29 @@
+{
+  "name": "mongooes",
+  "version": "1.0.0",
+  "description": "First App with API and MongoDB connections with Mongooes",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "keywords": [
+    "Mongooes",
+    "API",
+    "MONGODB"
+  ],
+  "author": "Muhammad Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "jasmine-node": "^1.14.5",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.5.10",
+    "multer": "^1.2.0",
+    "path": "^0.12.7",
+    "request": "^2.74.0",
+    "undot": "^0.2.0",
+    "url": "^0.11.0"
+  }
+}
